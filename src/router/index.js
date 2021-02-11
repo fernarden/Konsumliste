@@ -11,11 +11,6 @@ Vue.use(VueRouter)
     component: Home
   },
   {
-    path: '/gerichte',
-    name: 'Gerichte',
-    component: () => import(/* webpackChunkName: "gerichte" */ '../views/Gerichte.vue')
-  },
-  {
     path: '/dm',
     name: 'dm',
     component: () => import(/* webpackChunkName: "dm" */ '../views/dm.vue')

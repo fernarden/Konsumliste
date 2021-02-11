@@ -1,5 +1,5 @@
 module.exports = {
-    publicPath:'/konsum',
+    publicPath:'/cause',
     devServer: {
         proxy: 'https://danceboys.de',
     }
